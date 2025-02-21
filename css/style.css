@@ -573,7 +573,8 @@ footer a:focus {
   z-index: -1;
 }
 .top-content .text img {
-  width: 350px;
+  width: 510px;
+  margin-right: 70px;
   /* ปรับขนาดโลโก้ */
 }
 .ribbon {

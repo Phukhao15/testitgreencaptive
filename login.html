@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -9,7 +7,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Strisuksa Internet Service</title>
+    <title>External cap Servicr</title>
 
 
 
@@ -47,13 +45,19 @@
         }
 
         .demo-bg {
-            opacity: 0.6;
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: auto;
-        }
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: blur(8px);
+  transform: scale(1.1);
+}
+
+
 
         .demo-content {
             position: relative;
@@ -63,7 +67,7 @@
 
 </head>
 
-<!--body oncontextmenu="return false"-->
+<body oncontextmenu="return false">
     <div class="demo-wrap">
 
 
@@ -72,7 +76,7 @@
 
 
 
-        <img class="demo-bg" src="img/Background.jpg" alt="" />
+        <img class="demo-bg" src="img/Background.jpeg" alt="" />
         <div class="demo-content">
             <div class="top-content">
                 <div class="inner-bg">
@@ -80,7 +84,7 @@
                         <center>
                             <div class="row">
                                 <div class="col-sm-6 col-sm-offset-3 text">
-                                    <img src="img/logo.png" class="img-responsive animated slideInUp" />
+                                    <img src="img/logooo.png" class="img-responsive animated slideInUp" />
                                     <p></p>
                                 </div>
                             </div>
@@ -90,7 +94,6 @@
                                 <div class="form-bottom">
                                     <form name="login" class="form loginRegistrationForm" method="POST"
                                         action="https://cportal.al-enterprise.com/login">
-                                         <!--action="https://192.168.10.100"-->
                                         <div class="form-group">
                                             <label class="sr-only" for="form-username">Username</label>
                                             <input type="text" name="user" placeholder="เลขประจำตัว 5 หลัก เช่น 00111"
@@ -101,7 +104,7 @@
                                             <input type="password" name="password" class="form-control input-field"
                                                 placeholder="วัน เดือน ปีเกิด เช่น 01052549" required="" />
                                         </div>
-                                        <input type="hidden" name="url" value="http://www.strisuksa.ac.th" />
+                                        <input type="hidden" name="url" value="http://www.swp.ac.th" />
                                         <button type="submit" class="btn azm-social azm-btn azm-pill azm-deviantart">
                                             เข้าสู่ระบบ
                                         </button>
